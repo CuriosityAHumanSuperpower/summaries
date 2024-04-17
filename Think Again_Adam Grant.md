@@ -19,7 +19,7 @@
 
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
-flowchart LR
+flowchart TB
     subgraph The Rethinking Cycle
         Humility --> Doubt --> Curiosity --> Dicovery --> Humility
     end
@@ -53,7 +53,52 @@ pie title The most annoying things people say instead of rethinking
 
 ## Chapter 4: The good fight club
 
->
+> Relationship conflict is destructive in part because it stand in the way of rethinking. When a clash gets personal and emotional, we become self-righteous preachers of our own views, spiteful prosecutor of the other side, or single-minded politicians who dimiss opinions that do not come from our side. Task conflict can be contructive when it brings diversity of thought, preventing us from getting trapped in overconfidence cycles. It can help us stay humble, surface doubts, and make us curious about what we might be missing. That can lead us to think again, moving us closer to the truth without domaging our relationships.
+
+> Disagreable givers often make the best critics: their intent is to elevate the work, not feed their own egos. They don't criticize because they're insecure; they challenge because they care. They dish ou tough love.
+
+```mermaid
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+---
+title how task conflict can turn into relationship conflict
+---
+flowchart LR
+    subgraph At work
+        A["Did you get my email ?"]
+        B["I haven't gotten a chance to read it"]
+        C("Under breath : I hate you")
+        A-->B-->C
+    end
+    subgraph At school
+        D["How are we getting to the party ?"]
+        E["I don't know, I always drive."]
+        F["You don't have to say it like that."]
+        G("Cool, I am going without you then")
+        D-->E-->F-->G
+    end
+    subgraph At home
+        H["What should we eat tonight ?"]
+        I["I don't care, you choose."]
+        J("Ugh, you alwais do this.")
+        H-->I-->J
+    end
+```
+
+> A disagreement feels personal and potentially hostile; we experct a debate to be about ideas, not emotinos. Starting a disagreement by asking, "Can we debate?" sends a message that you want to think like a scientist, not a preacher or a prosecutor-and encourages the other person to think that way, too.
+
+> Social scientists asked people why they favor particular policies on taxes, health care, or nuclear sancitons, they often doubted down on their convictions. Asking popole to explain _how_ \[(not why)\] those policies would work in practice-or how they would explain them to an expert-activated a rethinking cycle. They noticed gaps in their knowledge, doubted their conclusions, and became less extreme; they were now more curious about alternative options.
+
+## Chapter 5: Dance with foes 
+
+> In a formal debate you goal is to change the mind of your audiance. In a informal debate, you're trying to change the mind of your conversation partner.
+
+```mermaid
+xychart-beta
+title "Belief I stand by"
+x-axis [Data that go against my opinion, The last scientific studies, Unconventionnal thinking, New evidence, That thing I heard from my friend brother in 2006]
+y-axis "How steadfast it is" 0 --> 100
+bar [2, 10, 4, 2, 90]
+```
 
 ## TEST : to be deleted 
 
